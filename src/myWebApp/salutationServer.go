@@ -9,7 +9,7 @@ import (
 
 func sayHello(w http.ResponseWriter ,r *http.Request) {
 	r.ParseForm()
-	fmt.Printf(" Type of r = %T  and value = %V",r,r)
+	fmt.Printf(" Type of r = %T  and value = %v",r,r)
 	fmt.Println("Form =",r.Form)
 	fmt.Println(
 		"URL Path = ",
