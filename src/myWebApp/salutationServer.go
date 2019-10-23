@@ -33,8 +33,8 @@ func sayBye(w http.ResponseWriter ,r *http.Request) {
 }
 
 func main() {
-	http.HandleFunc("/sayHello", sayHello) // set router
-	http.HandleFunc("/sayBye", sayBye) // set router
+	http.HandleFunc("/hi", sayHello) // set router
+	http.HandleFunc("/bye", sayBye) // set router
     err := http.ListenAndServe(":9090", nil) // set listen port
     if err != nil {
         log.Fatal("ListenAndServe: ", err)
