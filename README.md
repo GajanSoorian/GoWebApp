@@ -1,7 +1,11 @@
 # GoWebApp
 Under construction.
 
-End goal: A micro service for user authentication that can be used by any web app. 
+End goal: To build a web app with 
+        - user authentication & sessions
+        - Angular frontend
+        - cockroach DB backend
+        - Python module to analyse the DB data with API used to dislay info to the user.
 
 
 Things to keep in mind:
